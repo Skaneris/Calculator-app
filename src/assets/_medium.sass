@@ -1,0 +1,42 @@
+.calculator.medium
+    background: #3B4664
+    .calculator__body
+        .top
+            margin: 0 0 24px 0
+            display: flex
+            justify-content: space-between
+            &__trigger
+                display: flex
+                align-items: flex-end
+                .label
+                    padding: 0 24px 0 0
+                    font-size: 0.46rem
+                    text-transform: uppercase
+                .trigger
+                    .value
+                        padding: 3px
+                        display: flex
+                        gap: 3px
+                        font-size: 0.5rem
+                        div
+                            flex: 0 0 20px
+                            text-align: center
+                    .control
+                        padding: 3px
+                        height: 26px
+                        width: 72px
+                        background: linear-gradient(to bottom, #D0CCCB, #D5CDCA)
+                        border-radius: 12px
+                        position: relative
+                        display: flex
+                        gap: 3px
+                        div
+                            flex: 0 0 20px
+                            border-radius: 10px
+                            cursor: pointer
+                            background: green
+                        .target
+                            background: orange
+                            left: 3px
+        .display
+            background: #EEEEEE
