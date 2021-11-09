@@ -13,7 +13,7 @@
         width: 100%
         max-width: 335px
         .top
-            margin: 0 0 24px 0
+            margin: 0 0 30px 0
             display: flex
             justify-content: space-between
             align-items: center
@@ -62,6 +62,7 @@
         .display
             width: 100%
             height: 90px
+            margin: 0 0 24px 0
             padding: 0 24px
             background: #EEEEEE
             font-size: 34px
@@ -69,3 +70,44 @@
             text-align: right
             border-radius: 10px
             transition: 0.3s
+        .buttons
+            padding: 22px
+            background: #D3CDCD
+            border-radius: 12px
+            display: grid
+            grid-template-columns: repeat(4, 1fr)
+            gap: 12px
+            button
+                height: 64px
+                padding: 0.5rem 0 0.3rem 0
+                font-family: inherit
+                font-size: 0.9rem
+                font-weight: 700
+                line-height: 1
+                background: #E5E4E0
+                border-radius: 6px
+                border-top: none
+                border-left: none
+                border-right: none
+                border-bottom: 4px solid #A69F8F
+                outline: none
+                display: block
+                &.clear
+                    font-size: 0.56rem
+                    background: linear-gradient(to bottom, #3A8088, #388187)
+                    border-bottom: 4px solid #1A5D65
+                    color: #FFFFFF
+                &.reset
+                    font-size: 0.56rem
+                    background: linear-gradient(to bottom, #3A8088, #388187)
+                    border-bottom: 4px solid #1A5D65
+                    color: #FFFFFF
+                    grid-column-start: 1
+                    grid-column-end: 3
+                &.total
+                    font-size: 0.6rem
+                    background: linear-gradient(to bottom, #C75403, #C85401)
+                    border-bottom: 4px solid #893A02
+                    color: #FFFFFF
+                    grid-column-start: 3
+                    grid-column-end: 5
