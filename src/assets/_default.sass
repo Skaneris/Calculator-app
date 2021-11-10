@@ -12,6 +12,9 @@
         margin: auto
         width: 100%
         max-width: 335px
+        @media screen and ( min-width: 1000px )
+            width: 37%
+            max-width: 526px
         .top
             margin: 0 0 30px 0
             display: flex
@@ -96,6 +99,7 @@
                 border-bottom: 4px solid #A69F8F
                 outline: none
                 display: block
+                cursor: pointer
                 &.clear
                     font-size: 0.56rem
                     background: linear-gradient(to bottom, #3A8088, #388187)
