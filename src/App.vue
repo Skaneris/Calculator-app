@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import { ref, computed } from 'vue'
+import { computed, onMounted } from 'vue'
 import { useStore } from 'vuex'
 import TopPanel from './components/TopPanel.vue'
 import Display from './components/Display.vue'
@@ -22,6 +22,7 @@ export default {
     setup() {
         const store = useStore()
         const className = computed(() => store.getters.className)
+        onMounted(() => store.dispatch('getTheme'))
         return {
             className
         }

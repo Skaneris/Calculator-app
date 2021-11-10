@@ -18,7 +18,7 @@ export default {
     setup() {
         const values = ref([1, 2, 3])
         const store = useStore()
-        const setTheme = value => store.commit('setTheme', value)
+        const setTheme = value => store.dispatch('changeTheme', value)
         return {
             values,
             setTheme

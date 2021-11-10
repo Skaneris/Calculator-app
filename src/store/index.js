@@ -68,6 +68,16 @@ export default createStore({
                   commit('setDisplayValue', '0')
                   commit('setMemory', 0)
                   commit('setAction', null)
+            },
+            getTheme({commit}) {
+                  const theme = localStorage.getItem('calcTheme');
+                  if(theme) {
+                        commit('setTheme', Number(theme))
+                  }
+            },
+            changeTheme({commit}, value) {
+                  localStorage.setItem('calcTheme', value.toString())
+                  commit('setTheme', value)
             }
       },
       getters: {
