@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Calculator-app-solution](https://www.frontendmentor.io/solutions/vue3-vuex-hiyVEL9lS)
+- Live Site URL: [Calculator-app](https://skaneris.github.io/Calculator-app/)
 
 ## My process
 
