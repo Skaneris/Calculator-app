@@ -19,6 +19,9 @@
                 color: #FFE842
                 background: #331B4D
                 border-bottom: 4px solid #851C9C
+                transition: 0.1s
+                &:hover
+                    background: lighten(#331B4D, 5)
                 &.clear
                     background: linear-gradient(to bottom, #55087C, #56077C)
                     border-bottom: 4px solid #BF16F5
@@ -31,3 +34,8 @@
                     background: linear-gradient(to bottom, #00DECF, #00DECF)
                     border-bottom: 4px solid #6DFAF1
                     color: hsl(60, 10%, 19%)
+                &:active
+                    color: #FFF
+                    background: #00D9CE
+                    box-shadow: 0 0 6px #00D9CE, 0 0 16px #00D9CE, 0 0 30px #00D9CE
+                    border-bottom: none

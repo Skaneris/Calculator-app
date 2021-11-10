@@ -105,6 +105,8 @@
                     background: linear-gradient(to bottom, #3A8088, #388187)
                     border-bottom: 4px solid #1A5D65
                     color: #FFFFFF
+                    &:active
+                        background: lighten(#3A8088, 20)
                 &.reset
                     font-size: 0.56rem
                     background: linear-gradient(to bottom, #3A8088, #388187)
@@ -112,6 +114,8 @@
                     color: #FFFFFF
                     grid-column-start: 1
                     grid-column-end: 3
+                    &:active
+                        background: lighten(#3A8088, 20)
                 &.total
                     font-size: 0.6rem
                     background: linear-gradient(to bottom, #C75403, #C85401)
@@ -119,3 +123,8 @@
                     color: #FFFFFF
                     grid-column-start: 3
                     grid-column-end: 5
+                    &:active
+                        background: lighten(#C75403, 10)
+                &:active
+                    background: lighten(#E5E4E0, 10)
+                    border-bottom: 2px solid #A69F8F
