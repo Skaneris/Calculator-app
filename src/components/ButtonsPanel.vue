@@ -21,17 +21,17 @@ export default {
             { type: 'number', value: '4'},
             { type: 'number', value: '5'},
             { type: 'number', value: '6'},
-            { type: 'action', value: '+'},
+            { type: 'plus', value: '+'},
             { type: 'number', value: '1'},
             { type: 'number', value: '2'},
             { type: 'number', value: '3'},
-            { type: 'action', value: '-'},
+            { type: 'minus', value: '-'},
             { type: 'number', value: '.'},
             { type: 'number', value: '0'},
-            { type: 'action', value: '/'},
-            { type: 'action', value: 'x'},
+            { type: 'divide', value: '/'},
+            { type: 'multi', value: 'x'},
             { type: 'action', value: 'RESET', class: 'reset'},
-            { type: 'action', value: '=', class: 'total'}
+            { type: 'total', value: '=', class: 'total'}
         ])
         return {
             buttons

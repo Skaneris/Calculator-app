@@ -1,5 +1,7 @@
 <template>
-    <div class="display">{{ value }}</div>
+    <div class="display">
+        <div>{{ value }}</div>
+    </div>
 </template>
 
 <script>
